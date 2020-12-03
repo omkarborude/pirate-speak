@@ -47,6 +47,7 @@ button:hover{
 }
 
 #output{
+    color: black;
     margin: auto;
     background-color: white;
     height: 130px;
