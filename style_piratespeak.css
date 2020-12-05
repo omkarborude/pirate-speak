@@ -1,3 +1,12 @@
+.background {
+  background-image: url(img/858520.jpg);
+  position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    
+}
 
 .main{
     text-align: center;
@@ -6,6 +15,7 @@
 }
 /* nav head */
 .nav{
+    opacity: 0.8;
     border-radius: 10px;
     height: 100px;
     background-color: white;
@@ -29,6 +39,8 @@
 /* in */
 
 #txt-input{
+    opacity: 0.6;
+    border-radius: 10px;
     height: 130px;
     padding: 20px;
     margin-top: 40px;
@@ -52,8 +64,11 @@ button:hover{
 }
 /* out div */
 #output{
+    opacity: 0.6;
+    border-radius: 10px;
     color: black;
     margin: auto;
+    margin-bottom: 20px;
     background-color: white;
     height: 130px;
     width: 50%;
